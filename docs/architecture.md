@@ -36,3 +36,16 @@
 
 4. **Prezentacja / Analiza**
    - Power BI, Streamlit lub Databricks SQL wykorzystują dane z *gold*.
+
+## Diagram architektury
+
+![Architecture Diagram](architecture.png)
+
+## Konwencje nazw i ścieżek danych
+
+- **Storage account:** `stlakehouse{JakMuc}`
+- **Container:** `raw`, `clean`, `analytics`
+- **Folder structure:**
+  - `/bronze/{source}/{YYYY}/{MM}/{DD}/`
+  - `/silver/{domain}/{table}/`
+  - `/gold/{topic}/{aggregation}/`
