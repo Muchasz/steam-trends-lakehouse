@@ -39,7 +39,7 @@
 
 ## Diagram architektury
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](Architektura.png)
 
 ## Konwencje nazw i ścieżek danych
 
